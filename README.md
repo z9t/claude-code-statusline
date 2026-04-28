@@ -96,6 +96,10 @@ The script is one file with no dependencies — fork it and edit. The interestin
 - **Bar width** — the `width` arg to `bar(...)`, default 10 cells
 - **Adding segments** — append to `parts` in `render(...)`. Each segment is just an ANSI-colored string; sections are joined by `SEP`.
 
+## Examples
+
+- [`examples/extended.py`](examples/extended.py) — adds a second line with custom segments for background services (Gemma worker, Gemini CLI, MiniMax, MQTT, fleet SSH/A2A health). Imports the core's color primitives and bars to demonstrate the extension pattern. See [`examples/README.md`](examples/README.md).
+
 ## License
 
 MIT — see `LICENSE`.

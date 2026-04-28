@@ -37,6 +37,7 @@ def col_time(t):   return _dim_c(140, 155, 175, t)    # dim for reset countdowns
 def col_ok(t):     return _c(74, 222, 128, t)         # green
 def col_warn(t):   return _c(251, 191, 36, t)         # amber
 def col_err(t):    return _c(248, 113, 113, t)        # red
+def col_dim(t):    return _dim(t)                     # dim/faded text
 
 SEP = col_sep(" │ ")
 
